@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="1"
+            tests="2">
+
+  <testsuite name="yoodlize"
+    errors="1" failures="1" hostname="" id="" package="yoodlize" skipped="0"
+    tests="2" time="120.8" timestamp="">
+  
+    <testcase name="SEE ALL LINKS" classname="yoodlize" time="113.4" assertions="30">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Browse Categories Links" classname="yoodlize" time="7.429" assertions="2">
+
+      <failure message="Testing if element &lt;//div[@class=&#34;sc-jKVCRD jSqgxr&#34;]&gt; contains text: &#34;Tools&#34;. Element could not be located in 1000 ms. - expected [0;32m&#34;Tools&#34;[0m but got: [0;31m&#34;null&#34;[0m">    at Object.Browse Categories Links (/Users/hakanberberoglu/Documents/DevMountain/Projects/practiceAutomation/Tests/yoodlize.js:91:21)
+    at processTicksAndRejections (internal/process/task_queues.js:89:5)</failure>
+
+    <failure message="    at Object.Browse Categories Links (/Users/hakanberberoglu/Documents/DevMountain/Projects/practiceAutomation/Tests/yoodlize.js:91:21)">    at processTicksAndRejections (internal/process/task_queues.js:89:5)</failure>
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>
