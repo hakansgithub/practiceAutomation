@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites errors="1"
-            failures="0"
+<testsuites errors="2"
+            failures="1"
             tests="1">
 
   <testsuite name="yoodlizeTest"
-    errors="1" failures="0" hostname="" id="" package="yoodlizeTest" skipped="1"
-    tests="1" time="7.290" timestamp="">
+    errors="2" failures="1" hostname="" id="" package="yoodlizeTest" skipped="1"
+    tests="1" time="19.55" timestamp="">
   
-    <testcase name="SEE ALL LINKS" classname="yoodlizeTest" time="7.290" assertions="0">
+    <testcase name="SEE ALL LINKS" classname="yoodlizeTest" time="19.55" assertions="2">
+
+      <failure message="Testing if element &lt;Element [name=@category]&gt; contains text: &#34;Experts&#34;. Element could not be located in 1000 ms. - expected [0;32m&#34;Experts&#34;[0m but got: [0;31m&#34;null&#34;[0m">    at Object.SEE ALL LINKS (/Users/hakanberberoglu/Documents/DevMountain/Projects/practiceAutomation/Tests/yoodlizeTest.js:95:21)</failure>
+
+    
     </testcase>
   
 
