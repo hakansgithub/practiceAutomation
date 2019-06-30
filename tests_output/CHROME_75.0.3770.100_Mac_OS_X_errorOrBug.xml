@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="1"
+            tests="3">
+
+  <testsuite name="errorOrBug"
+    errors="1" failures="1" hostname="" id="" package="errorOrBug" skipped="1"
+    tests="3" time="7.208" timestamp="">
+  
+    <testcase name="Problem 1" classname="errorOrBug" time="1.043" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Problem 3" classname="errorOrBug" time="0.7530" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Problem 4" classname="errorOrBug" time="5.412" assertions="1">  <failure message="Testing if element &lt;.errorCard&gt; contains text: &#34;The name field must be between 1 and 30 characters long.&#34;. Element could not be located in 1000 ms. - expected [0;32m&#34;The name field must be between 1 and 30 characters long.&#34;[0m but got: [0;31m&#34;null&#34;[0m">    at Object.Problem 4 (/Users/hakanberberoglu/Documents/DevMountain/Projects/practiceAutomation/Tests/errorOrBug.js:47:21)
+    at processTicksAndRejections (internal/process/task_queues.js:89:5)</failure>
+
+    <failure message="    at Object.Problem 4 (/Users/hakanberberoglu/Documents/DevMountain/Projects/practiceAutomation/Tests/errorOrBug.js:47:21)">    at processTicksAndRejections (internal/process/task_queues.js:89:5)</failure>
+    </testcase>
+  
+
+  
+
+  
+    
+    <testcase
+      name="Problem 5" classname="errorOrBug">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>
